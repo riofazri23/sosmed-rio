@@ -1,4 +1,5 @@
 const isNews = (news) => {
+    console.log(news);
     return news.map((data, i) => {
         return (
             <div key={i} className="card w-full lg:w-96 bg-base-100 shadow-xl">
